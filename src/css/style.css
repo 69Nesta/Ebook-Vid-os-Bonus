@@ -1,0 +1,41 @@
+:root {
+    --bg-primary: #11131F;
+    --bg-secondary: #141726;
+    --text-primary: #D6E1FF;
+}
+
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    align-items: center;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+iframe {
+    background-color: var(--bg-secondary);
+}
